@@ -280,3 +280,55 @@
     color: #fff;
     text-align: center;
 }
+
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.block{
+    background-color: #333;
+    margin: 10px;
+    color: white;
+    display: block;
+}
+
+.invisible{
+    background-color: #a5f;
+    display: none;
+}
+
+.static{
+    background-color: #4f8;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    position: static;
+
+}
+
+.relative{
+    background-color: #333;
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: #964;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
